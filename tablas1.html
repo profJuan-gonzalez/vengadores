@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas ejemplo</title>
+    <style>
+        .titulo{
+            color: white;
+            background-color: brown;
+        }
+        .negrita{
+            font-weight: bold;
+            color: blueviolet;
+            text-align: center;
+        }
+        col:nth-child(1){
+            background-color: red ;
+        }
+        col:nth-child(2){
+            background-color: blue ;
+        }
+        .tfooter{
+            background-color: brown;
+            color:white;
+    
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>HORARIO DE CLASES 5"C"</caption>
+       
+        <thead>
+            
+            <tr class="titulo">
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:15 - 8:55</td>
+                <td>Geografia</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+            </tr>
+            <tr>
+                <td>8:55 - 9:35</td>
+                <td>Geografia</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+                <td>Lenguaje de Programación</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="5" class="negrita">RECREO</td>
+            </tr>
+            <tr>
+                <td>9:50 - 11:10</td>
+                <td>Lenguaje de Programación</td>
+            </tr>
+            <tr>
+                <td>11:25 - 12:45</td>
+                <td>Soluciones </td>
+            </tr>
+        </tbody>
+        <tfoot class="tfooter">
+            <tr>
+                <td colspan="5">Cantidad de asignaturas</td>
+                <td>9</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+<footer></footer>
+
+</html>
